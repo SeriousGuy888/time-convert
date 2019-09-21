@@ -34,12 +34,12 @@ function timeConvert(options) {
   if(isNaN(time)) return "Error: Time or amount of seconds could not be parsed as integer.";
 
   let secs = time;
-  let mins;
-  let hrs;
-  let days;
-  let weeks;
-  let months;
-  let years;
+  let mins = 0;
+  let hrs = 0;
+  let days = 0;
+  let weeks = 0;
+  let months = 0;
+  let years = 0;
 
   if(secs >= 60) {
     mins = Math.floor(secs / 60);
@@ -89,11 +89,17 @@ function timeConvert(options) {
 
   switch(returnFormat) {
     case 0:
+      if(mins < 10) mins = "0" + mins
+      if(secs < 10) secs = "0" + secs
+
       if(monthsAndWeeks) returnVal = `${years}y${months}M${weeks}w${days}d${hrs}h${mins}m${secs}s`;
       if(!monthsAndWeeks) returnVal = `${years}y${days}d${hrs}h${mins}m${secs}s`;
       break;
       
     case 1:
+      if(mins < 10) mins = "0" + mins
+      if(secs < 10) secs = "0" + secs
+
       if(monthsAndWeeks) returnVal = `${years}y ${months}m ${weeks}w ${days}d ${hrs}:${mins}:${secs}`;
       if(!monthsAndWeeks) returnVal = `${years}y ${days}d ${hrs}:${mins}:${secs}`;
       break;
