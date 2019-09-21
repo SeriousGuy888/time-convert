@@ -2,7 +2,10 @@ function timeConvert(options) {
   if(!options.seconds) return "Error: Please specify an amount of seconds!";
 
   const time = parseInt(options.seconds);
-  const timeFormat = options.format.toLowerCase() || "letters";
+
+  let timeFormat;
+  if(!options.format) timeFormat = "letters"
+  else if(options.format) timeFormat = options.format.toLowerCase();
   const monthsAndWeeks = options.monthsAndWeeks || false;
   // const upTo = options.upTo.toLowerCase() || "y";
 
