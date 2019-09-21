@@ -1,0 +1,24 @@
+{
+  "name": "time-convert",
+  "version": "1.0.0",
+  "description": "Convert an amount of seconds to time formatted JSON, words, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeriousGuy888/time-convert.git"
+  },
+  "keywords": [
+    "time",
+    "time",
+    "conversion"
+  ],
+  "author": "seriousguy888",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeriousGuy888/time-convert/issues"
+  },
+  "homepage": "https://github.com/SeriousGuy888/time-convert#readme"
+}
