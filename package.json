@@ -1,6 +1,6 @@
 {
   "name": "seconds-time-formatter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Convert an amount of seconds to time formatted JSON, words, and more.",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
   },
   "keywords": [
     "time",
-    "time",
-    "conversion"
+    "conversion",
+    "seconds converter"
   ],
   "author": "seriousguy888",
   "license": "ISC",
