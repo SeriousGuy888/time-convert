@@ -68,10 +68,10 @@
  ```
 
  Valid formats include:
-    * "letters" - `...1h02m03s`
-    * "colons" - `...3w 2d 1:02:03`
-    * "json" - `{years: 1, months: 2 ...}`
-    * "words" - `1 year, 2 months, 3 weeks...`
+    - "letters" - `...1h02m03s`
+    - "colons" - `...3w 2d 1:02:03`
+    - "json" - `{years: 1, months: 2 ...}`
+    - "words" - `1 year, 2 months, 3 weeks...`
 
 ### Months and Weeks
  By default, this is set to false. This is because of how
