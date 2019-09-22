@@ -8,7 +8,7 @@
 # How to Use
  ```js
   // Require the package
-  const timeFormatter = require("seconds-time-formatter")
+  const timeFormatter = require("seconds-time-formatter");
 
   console.log(
     timeFormatter.timeConvert({
@@ -18,7 +18,7 @@
       // By default false, because of how it's hard to convert days and weeks to months.
       // If you do enable it, 1 month = 4 weeks. If not, 1 year = 365 days.
     }
-  ))
+  ));
  ```
 
 # Options
@@ -27,13 +27,13 @@
  The amount of seconds you want to convert.
 
  ```js
-  const timeFormatter = require("seconds-time-formatter")
+  const timeFormatter = require("seconds-time-formatter");
 
   console.log(
     timeFormatter.timeConvert({
       seconds: 132
     }
-  ))
+  ));
 
   // Will output 0y0M0w0d0h02m12s
  ```
@@ -43,14 +43,14 @@
  returned the converted time. Defaults to "letters" if not specified.
 
  ```js
-  const timeFormatter = require("seconds-time-formatter")
+  const timeFormatter = require("seconds-time-formatter");
 
   console.log(
     timeFormatter.timeConvert({
       seconds: 132,
       format: "json"
     }
-  ))
+  ));
 
   /*
   Will output:
