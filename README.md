@@ -2,6 +2,8 @@
  A NodeJS package for converting seconds to formatted time!
  Time can be converted and returned in JSON format, in words, and more.
 
+ *It's also written really stupidly and I might rewrite it at some point.*
+
 # Intallation
  `npm i seconds-time-formatter`
 
