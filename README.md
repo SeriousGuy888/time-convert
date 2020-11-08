@@ -8,6 +8,7 @@
  `npm i seconds-time-formatter`
 
 # How to Use
+ don't use it use something actually good or write something yourself
  ```js
   // Require the package
   const timeFormatter = require("seconds-time-formatter");
